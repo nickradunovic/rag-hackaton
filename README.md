@@ -1,3 +1,1 @@
 # rag-hackaton
-hihi
-hoi
