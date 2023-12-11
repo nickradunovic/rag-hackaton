@@ -1,1 +1,1 @@
-# building-rag-for-llms
+# rag-hackaton
