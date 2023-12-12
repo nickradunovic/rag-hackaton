@@ -16,7 +16,7 @@ Traditional language models generate text based on learned patterns and context.
 
 ### Usage of LlamaIndex for RAG
 
-LlamaIndex is a data framework for Large Language Models (LLMs) based applications. LLMs like GPT-4 come pre-trained on massive public datasets, allowing for incredible natural language processing capabilities out of the box. However, their utility is limited without access to your own private data.
+[LlamaIndex](https://github.com/run-llama/llama_index) is a data framework for Large Language Models (LLMs) based applications. LLMs like GPT-4 come pre-trained on massive public datasets, allowing for incredible natural language processing capabilities out of the box. However, their utility is limited without access to your own private data.
 
 LlamaIndex lets you ingest data from APIs, databases, PDFs, and more via flexible data connectors. This data is indexed into intermediate representations optimized for LLMs. LlamaIndex then allows natural language querying and conversation with your data via query engines, chat interfaces, and LLM-powered data agents. It enables your LLMs to access and interpret private data on large scales without retraining the model on newer data.
 
@@ -34,6 +34,10 @@ During the querying stage, the RAG pipeline searches for the most relevant infor
 This process allows the LLM to have access to current and updated information that may not have been included in its initial training.
 
 The main challenge during this stage is retrieving, organizing, and reasoning over potentially multiple knowledge bases.
+
+### Before you start coding
+
+Make sure to read the README fully, study the provided code in this repository, and have a look at the steps and information included in (this)[https://www.datacamp.com/tutorial/llama-index-adding-personal-data-to-llms] tutorial. 
 
 ## Hackathon Details
 
@@ -62,16 +66,11 @@ The primary objective of this hackathon is to enhance our understanding and prac
 
 2. **Create a Virtual Environment:**
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   python -m venv .env
+   source .env/bin/activate
    ```
 
 3. **Install Dependencies::**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Install Dependencies::**
    ```bash
    pip install -r requirements.txt
    ```
