@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Large Language Model (LLM) Hackathon repository! This hackathon is organized as part of Bastiaan's LLM session at Future Facts and focuses on integrating Retrieval Augmented Generation (RAG) in Large Language Models. In three hours, this session wil help enhance our understanding and practical skills in implementing Retrieval Augmented Generation (RAG) for LLMs while getting hands-on experience with UI building tools like Streamlit. Each made application shall be demonstrated with a user-friendly interface developed with either Gradio or Streamlit.
+Welcome to the Large Language Model (LLM) Hackathon repository! This hackathon is organized as part of Bastiaan's LLM session at Future Facts and focuses on integrating Retrieval Augmented Generation (RAG) in Large Language Models. Every RAG implementation shall be demonstrated using a user-friendly interface developed with either Gradio or Streamlit. In three hours, this session wil help enhance our understanding and practical skills in implementing RAG for LLMs while getting hands-on experience in building UI's using Streamlit.
 
 ### How RAG Works
 
@@ -22,7 +22,7 @@ LlamaIndex lets you ingest data from APIs, databases, PDFs, and more via flexibl
 
 ### Before you start coding
 
-Make sure to read the README fully, study the provided code in this repository, and have a look at the steps and information included in (this)[https://www.datacamp.com/tutorial/llama-index-adding-personal-data-to-llms] tutorial. **TIP:** LlamaIndex has built-in functionality to utilize the GPT-series models.
+Make sure to read the README fully, study the provided code in this repository, and have a look at the steps and information included in [this tutorial](https://www.datacamp.com/tutorial/llama-index-adding-personal-data-to-llms). **TIP:** LlamaIndex has built-in functionality to utilize the GPT-series models.
 
 ## Hackathon Details
 
