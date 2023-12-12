@@ -14,6 +14,27 @@ Traditional language models generate text based on learned patterns and context.
 
 3. **Generation:** The model generates text, now equipped with the additional knowledge obtained through retrieval, resulting in more informed and contextually rich output.
 
+### Usage of LlamaIndex for RAG
+
+LlamaIndex is a data framework for Large Language Models (LLMs) based applications. LLMs like GPT-4 come pre-trained on massive public datasets, allowing for incredible natural language processing capabilities out of the box. However, their utility is limited without access to your own private data.
+
+LlamaIndex lets you ingest data from APIs, databases, PDFs, and more via flexible data connectors. This data is indexed into intermediate representations optimized for LLMs. LlamaIndex then allows natural language querying and conversation with your data via query engines, chat interfaces, and LLM-powered data agents. It enables your LLMs to access and interpret private data on large scales without retraining the model on newer data.
+
+### How LlamaIndex Works?
+LlamaIndex uses Retrieval Augmented Generation (RAG) systems that combine large language models with a private knowledge base. It generally consists of two stages: the indexing stage and the querying stage.
+
+#### Indexing stage
+LlamaIndex will efficiently index private data into a vector index during the indexing stage. This step helps create a searchable knowledge base specific to your domain. You can input text documents, database records, knowledge graphs, and other data types.
+
+Essentially, indexing converts the data into numerical vectors or embeddings that capture its semantic meaning. It enables quick similarity searches across the content.
+
+#### Querying stage
+During the querying stage, the RAG pipeline searches for the most relevant information based on the user's query. This information is then given to the LLM, along with the query, to create an accurate response.
+
+This process allows the LLM to have access to current and updated information that may not have been included in its initial training.
+
+The main challenge during this stage is retrieving, organizing, and reasoning over potentially multiple knowledge bases.
+
 ## Hackathon Details
 
 ### Timeline
@@ -28,14 +49,14 @@ The primary objective of this hackathon is to enhance our understanding and prac
 ### Technologies/Frameworks
 
 - **Language Models:** Utilize GPT-3.5 as the LLM for this assignment.
-- **Retrieval Augmented Generation (RAG):** Implement RAG techniques to improve the LLM's performance on .
+- **Retrieval Augmented Generation (RAG):** Implement RAG techniques to improve the LLM's performance on `<insert data source>`.
 - **User Interface:** Choose between Gradio or Streamlit for creating an interactive UI.
 
 ## Getting Started
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/llm-hackathon-rag.git
+   git clone https://github.com/nickradunovic/llm-hackathon-rag.git
    cd llm-hackathon-rag
    ```
 
