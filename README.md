@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Large Language Model (LLM) Hackathon repository! This hackathon is organized as part of Bastiaan's LLM session at Future Facts. The primary focus is on implementing and utilizing Retrieval Augmented Generation (RAG) techniques for Large Language Models (LLMs). The ultimate goal is to integrate RAG into an existing LLM and showcase its application through a user-friendly interface developed with either Gradio or Streamlit.
+Welcome to the Large Language Model (LLM) Hackathon repository! This hackathon is organized as part of Bastiaan's LLM session at Future Facts and focuses on integrating Retrieval Augmented Generation (RAG) in Large Language Models. In three hours, this session wil help enhance our understanding and practical skills in implementing Retrieval Augmented Generation (RAG) for LLMs while getting hands-on experience with UI building tools like Streamlit. Each made application shall be demonstrated with a user-friendly interface developed with either Gradio or Streamlit.
 
 ### How RAG Works
 
@@ -20,24 +20,9 @@ Traditional language models generate text based on learned patterns and context.
 
 LlamaIndex lets you ingest data from APIs, databases, PDFs, and more via flexible data connectors. This data is indexed into intermediate representations optimized for LLMs. LlamaIndex then allows natural language querying and conversation with your data via query engines, chat interfaces, and LLM-powered data agents. It enables your LLMs to access and interpret private data on large scales without retraining the model on newer data.
 
-### How LlamaIndex Works?
-LlamaIndex uses Retrieval Augmented Generation (RAG) systems that combine large language models with a private knowledge base. It generally consists of two stages: the indexing stage and the querying stage.
-
-#### Indexing stage
-LlamaIndex will efficiently index private data into a vector index during the indexing stage. This step helps create a searchable knowledge base specific to your domain. You can input text documents, database records, knowledge graphs, and other data types.
-
-Essentially, indexing converts the data into numerical vectors or embeddings that capture its semantic meaning. It enables quick similarity searches across the content.
-
-#### Querying stage
-During the querying stage, the RAG pipeline searches for the most relevant information based on the user's query. This information is then given to the LLM, along with the query, to create an accurate response.
-
-This process allows the LLM to have access to current and updated information that may not have been included in its initial training.
-
-The main challenge during this stage is retrieving, organizing, and reasoning over potentially multiple knowledge bases.
-
 ### Before you start coding
 
-Make sure to read the README fully, study the provided code in this repository, and have a look at the steps and information included in (this)[https://www.datacamp.com/tutorial/llama-index-adding-personal-data-to-llms] tutorial. 
+Make sure to read the README fully, study the provided code in this repository, and have a look at the steps and information included in (this)[https://www.datacamp.com/tutorial/llama-index-adding-personal-data-to-llms] tutorial. **TIP:** LlamaIndex has built-in functionality to utilize the GPT-series models.
 
 ## Hackathon Details
 
@@ -48,12 +33,15 @@ Make sure to read the README fully, study the provided code in this repository, 
 
 ### Objective
 
-The primary objective of this hackathon is to enhance our understanding and practical skills in implementing Retrieval Augmented Generation (RAG) for Large Language Models. Participants will make teams of two and will be tasked with integrating RAG into a provided LLM and creating a user interface to demonstrate the application.
+Participants will form teams of two and will be tasked with incorporating RAG into a LLM of their choice using LlamaIndex. Additionally, each team is empowered to select their preferred data sources, such as documents, books, Wiki pages, and LinkedIn-generated resumes, to enhance the LLM's knowledge base.
+
+Once RAG is successfully implemented, the model should demonstrate its capability to answer questions related to the material exclusively provided in the external documents. To showcase the application, participants are required to construct a user interface using Streamlit (or Gradio based on individual preferences).
+
 
 ### Technologies/Frameworks
 
-- **Language Models:** Utilize GPT-3.5 as the LLM for this assignment.
-- **Retrieval Augmented Generation (RAG):** Implement RAG techniques to improve the LLM's performance on `<insert data source>`.
+- **Language Models:** Utilize a LLM of choice (e.g., GPT-3.5) for this assignment.
+- **Retrieval Augmented Generation (RAG):** Use LlamaIndex to implement RAG techniques to improve the LLM's performance on `<insert data source>`.
 - **User Interface:** Choose between Gradio or Streamlit for creating an interactive UI.
 
 ## Getting Started
